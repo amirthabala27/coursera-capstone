@@ -46,7 +46,7 @@ function logout(){
 function isUserLoggedIn(nav,error,login){
     var user = sessionStorage.getItem('user');
 
-    console.log(user,nav,error,login);
+    //console.log(user,nav,error,login);
     if(user){
         document.getElementById(nav).className += " d-block";
         document.getElementById(error).className += " d-block";
