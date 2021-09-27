@@ -18,6 +18,7 @@ function signup(){
 
     // console.log(users);
     localStorage.setItem('users',JSON.stringify(users));
+    sessionStorage.setItem('user',JSON.stringify({"email":email,"password":password}));
     return true;
 }
 
