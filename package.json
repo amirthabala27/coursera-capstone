@@ -1,0 +1,29 @@
+{
+  "name": "capstone",
+  "version": "1.0.0",
+  "description": "capstone project",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirthabala27/coursera-capstone.git"
+  },
+  "author": "amirtha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirthabala27/coursera-capstone/issues"
+  },
+  "homepage": "https://github.com/amirthabala27/coursera-capstone#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.2",
+    "font-awesome": "^4.7.0"
+  }
+}

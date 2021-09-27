@@ -1,0 +1,15 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.signup{
+    background-image: url('../img/siguppage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.signin{
+    background-image: url('../img/signinpage.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
